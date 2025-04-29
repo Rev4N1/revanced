@@ -59,15 +59,24 @@ build-mode = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 
+[Reddit]
+apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit/" 
+
 [Twitch]
-apkmirror-dlurl = "https://www.apkmirror.com/apk/twitch-interactive-inc/twitch/"
+apkmirror-dlurl = "https://apkmirror.com/apk/twitch-interactive-inc/twitch/"
 uptodown-dlurl = "https://twitch.en.uptodown.com/android"
+apkmirror-dpi = "120-640dpi"
+build-mode = "apk"
+arch = "all"
+version = "auto" 
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/tv.twitch.android.app"
 
 [Twitter]
 apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter"
+apkmirror-dpi = "120-640dpi"
 build-mode = "apk"
-dpi = "120-640dpi"
+arch = "all"
+version = "auto"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.twitter.android"
 
 [TikTok]
